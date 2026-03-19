@@ -1,0 +1,1 @@
+export const constantURL = "https://jsonplaceholder.typicode.com";
