@@ -39,7 +39,7 @@ function ProductPage() {
 
   return (
     <>
-      <div className="parentProduct">
+      <div className="parentProduct bg-sky-300 ">
         <h1 className="text-5xl font-bold text-center">Product Page</h1>
 
         <div className="flex flex-col gap-4">
@@ -55,7 +55,7 @@ function ProductPage() {
           <div className="flex justify-center gap-2">
             <button 
                 onClick={() => setPageNumber(pageNumber + 1)}
-                className="p-4 border-2 border-black rounded-full"
+                className="p-4 bg-white border-2 border-black rounded-full"
             >
                 Next
             </button>
@@ -65,7 +65,7 @@ function ProductPage() {
             <button 
             onClick={() => setPageNumber(pageNumber - 1)}
                 disabled = {pageNumber == 1}
-                className="p-4 border-2 border-black rounded-full"
+                className="p-4 bg-white border-2 border-black rounded-full"
             >
                 Prev
             </button>
