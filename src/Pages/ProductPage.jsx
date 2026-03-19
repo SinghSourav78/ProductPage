@@ -55,7 +55,7 @@ function ProductPage() {
           <div className="flex justify-center gap-2">
             <button 
                 onClick={() => setPageNumber(pageNumber + 1)}
-                className="p-4 border-2 border-black rounded-md"
+                className="p-4 border-2 border-black rounded-full"
             >
                 Next
             </button>
@@ -65,7 +65,7 @@ function ProductPage() {
             <button 
             onClick={() => setPageNumber(pageNumber - 1)}
                 disabled = {pageNumber == 1}
-                className="p-4 border-2 border-black rounded-md"
+                className="p-4 border-2 border-black rounded-full"
             >
                 Prev
             </button>
